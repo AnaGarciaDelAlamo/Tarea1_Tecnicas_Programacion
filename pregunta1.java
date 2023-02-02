@@ -1,11 +1,11 @@
 //¿Qué algoritmos usas en tu vida cotidiana? 
-//Path: pregunta2.java
-class pregunta2 {
+import java.util.Scanner;
+public class pregunta1{
     public static void main(String[] args) {
-        System.out.println("¿Qué algoritmos crees que usan por tus juegos y aplicaciones favoritas?");
+        Scanner sc = new Scanner(System.in);
         System.out.println("¿Qué algoritmos usas en tu vida cotidiana?");
+        String respuesta = sc.nextLine();
+        System.out.println("Respuesta: " + respuesta);
     }
 }
-
-//creame ¿Qué algoritmos crees que usan por tus juegos y aplicaciones favoritas?
 
